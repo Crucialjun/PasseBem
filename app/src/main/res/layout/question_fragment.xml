@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".QuestionActivity">
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/rl_navegacao">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/image_pergunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="196dp"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/imagem" />
+
+                <TextView
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/text_pergunta_actual"
+                    android:layout_below="@id/image_pergunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Deixar de dar prioridadr de passagem nos cruzamentos ou entroncamentos nao sinalizados ao veiculo que vier da direita, constitui contravencao."/>
+
+
+
+
+                    <RadioGroup
+                        android:id="@+id/radio_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/text_pergunta_actual">
+
+
+                        <RadioButton
+                            android:id="@+id/radio_a"
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="64dp"
+                            tools:text="São punidas com pena desendjjd jsk jdsk jksdj jks jsk jdsk jks jsdk jdsk jdks jdsk jksls jskd  de prisão de um a três dias e multa de 5000 Mt."
+                            style="@style/RadioButtonStyle"/>
+
+                            <RadioButton
+                                android:id="@+id/radio_b"
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                tools:text="São punidas com pena de prisão de um a três dias e multa de 5000 Mt."
+                                style="@style/RadioButtonStyle"/>
+
+                            <RadioButton
+                                android:id="@+id/radio_c"
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                tools:text="São punidas com pena de prisão de um a três dias e multa de 5000 Mt."
+                                style="@style/RadioButtonStyle"/>
+
+
+                            <RadioButton
+                                android:id="@+id/radio_d"
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                style="@style/RadioButtonStyle"
+                                tools:text=" a) São punidas com pena de prisão de um a três dias e multa de 5000 Mt."
+                                android:textColor="@drawable/radio_text"/>
+
+
+                    </RadioGroup>
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_navegacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/button_anterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/transparent"
+            android:visibility="gone"
+            android:text="Anterior"
+            android:textColor="@android:color/white"/>
+
+
+        <TextView
+            android:id="@+id/text_numero_pergunta"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            tools:text="1"
+            android:fontFamily="sans-serif-medium"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <!--suppress AndroidDomInspection -->
+
+        <Button
+            android:id="@+id/button_seguinte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            android:text="Próxima"
+            android:textColor="@android:color/white"/>
+        <!--<LinearLayout-->
+            <!--android:id="@+id/button_seguinte"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="48dp"-->
+            <!--android:background="?selectableItemBackground"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:focusable="true"-->
+            <!--android:clickable="true">-->
+            <!---->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="16"-->
+                <!--android:text="Próxima"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:background="@drawable/ic_baseline_keyboard_arrow_right_24px" />-->
+
+
+        <!--</LinearLayout>-->
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        tools:text="12:12"/>
+
+
+    </RelativeLayout>

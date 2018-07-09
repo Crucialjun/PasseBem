@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "980900546389",
+    "firebase_url": "https://delicia-63303.firebaseio.com",
+    "project_id": "delicia-63303",
+    "storage_bucket": "delicia-63303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980900546389:android:a3d836b8ce7187a1",
+        "android_client_info": {
+          "package_name": "com.myown.firebasereact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980900546389-5ps7ou4gtab6khrdh2g5mhpsmsm4lecc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myown.firebasereact",
+            "certificate_hash": "4be90f86c680540dc103e3d51045063565fa1913"
+          }
+        },
+        {
+          "client_id": "980900546389-bgo9itjtu68eh9m31cvl63k7cqpelvk8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "980900546389-bgo9itjtu68eh9m31cvl63k7cqpelvk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIUBn2aL0jm_7b4lp-dfOeGSY2Ic3CyDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980900546389-bgo9itjtu68eh9m31cvl63k7cqpelvk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980900546389:android:97a69e56c5c7cc90",
+        "android_client_info": {
+          "package_name": "mz.co.passebem.passebem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980900546389-5km0ann9daclii12lvmaillfg1a8nbme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mz.co.passebem.passebem",
+            "certificate_hash": "b162358c35fabb79d7ef1b2ba79a1b86f1bc6ec3"
+          }
+        },
+        {
+          "client_id": "980900546389-bgo9itjtu68eh9m31cvl63k7cqpelvk8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "980900546389-bgo9itjtu68eh9m31cvl63k7cqpelvk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIUBn2aL0jm_7b4lp-dfOeGSY2Ic3CyDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980900546389-bgo9itjtu68eh9m31cvl63k7cqpelvk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
